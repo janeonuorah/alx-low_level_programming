@@ -1,4 +1,4 @@
-#include "main.h"
+#include <main.h>
 
 /**
  * more_numbers - Print numbers between 0 to 14 incl.
@@ -22,6 +22,6 @@ void more_numbers(void)
 				_putchar(i % 10 + '0');
 			i++;
 		}
-	_putchar('\n');	
+	_putchar('\n');
 	}
 }
